@@ -1,7 +1,7 @@
 {
   "name": "v-markdown",
-  "version": "1.0.0",
-  "description": "Vue v-markdown plugin",
+  "version": "1.0.1",
+  "description": "Vue.js v-markdown extend",
   "main": "index.js",
   "scripts": {
     "build": "webpack"
@@ -24,10 +24,10 @@
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
     "webpack": "^3.6.0"
   },
   "dependencies": {
-    "babel-preset-env": "^1.6.0",
     "markdown-it": "^8.4.0"
   }
 }
