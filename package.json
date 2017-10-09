@@ -1,6 +1,6 @@
 {
   "name": "v-markdown",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Vue.js v-markdown extend",
   "main": "index.js",
   "scripts": {

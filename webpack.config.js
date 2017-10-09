@@ -2,7 +2,7 @@ const webpack = require('webpack')
 
 
 module.exports = {
-    devtool: "#eval-source-map",
+    // devtool: "#eval-source-map",
     entry: "./src/index.js",
     output: {
         filename: "v-markdown.js",
@@ -13,6 +13,7 @@ module.exports = {
         rules: [{
             test: /\.js$/,
             loader: "babel-loader",
+            exclude: /node_modules/
         }]
     },
     plugins: [
